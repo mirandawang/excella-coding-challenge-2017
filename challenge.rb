@@ -1,11 +1,8 @@
 require 'sinatra'
+require 'sinatra/reloader' if development?
 
 get '/' do
   'Hello world!'
-end
-
-get '/Meghan' do
-  'Bonjour Meghan'
 end
 
 get '/add2nums' do
