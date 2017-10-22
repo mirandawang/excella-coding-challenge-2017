@@ -1,2 +1,2 @@
 require './challenge.rb'
-run Sinatra:Application
+run Sinatra::Application
